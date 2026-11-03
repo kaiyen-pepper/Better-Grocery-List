@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Newsreader', 'Playfair Display', Georgia, Cambria, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  body {
+    background-color: #F4F1EA;
+    color: #1C1A18;
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.receipt-edge {
+  background-image: radial-gradient(#E2DDD3 1.5px, transparent 1.5px);
+  background-size: 8px 8px;
+}
+
+/* Bento custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e5e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 9999px;
+  border: 2px solid #e5e5e0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2665d6;
+}

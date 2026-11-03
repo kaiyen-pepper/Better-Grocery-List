@@ -1,0 +1,6 @@
+{
+  "name": "DeliPrep - YouTube Meal Prep Grocery & Recipe Engine",
+  "description": "Extract recipes from YouTube videos, normalize ingredient units, audit pantry staples, calculate retail package vs. usage costs, and shop with an interactive aisle-organized grocery list.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
